@@ -2,9 +2,26 @@
 O objetivo desta competição é prever quais clientes são mais propensos a não pagarem seus empréstimos
 
 ### Relatório Executivo (Insights e eficácia)
-Importância de cada fator para a eficiência do modelo: 
+Neste gráfico podemos avaliar a importância de cada fator para a eficiência do modelo, de modo que fatores mais importantes podem ser melhor registrados, ou terem uma validação melhor de modo que futuros modelos tenham uma melhor eficácia
 ![image](https://github.com/user-attachments/assets/e3ed2f09-76e5-4dbd-96e8-25136d6e7b77)
 
+
+📊 Métricas no conjunto de treino:
+AUC: 0.7589
+Accuracy: 0.9671
+F1-score: 0.0115
+Precision: 1.0000
+Recall: 0.0058
+
+Relatório de Classificação:
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.98     55720
+           1       1.00      0.01      0.01      1905
+
+    accuracy                           0.97     57625
+   macro avg       0.98      0.50      0.50     57625
+weighted avg       0.97      0.97      0.95     57625
 
 
 
@@ -27,6 +44,8 @@ Importância de cada fator para a eficiência do modelo:
   E em caso de dados categóricos usar: first, last, ou modo
 
 - Remover categorias com poucas informações, ou seja algo em torno de 90% a 95% de dados faltantes, pode ser uma boa prática para aumentar a simplicidade e eficiência do modelo.
+
+- Verifiquei que a base de treino e teste tinhas colunas desiguais, isto é, que existia em uma e não na outra, então removi-as de modo a ter dois datasets com as mesma colunas de características para utilizar o modelo.
 
 - Ao fim utilizei random_search para otimizar meus paâmetros para o modelo Light GBM, em virtude de sua velocidade, utilizar outros modelos pode ser interessante.
 
