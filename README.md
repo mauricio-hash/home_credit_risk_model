@@ -1,5 +1,5 @@
 # Home Credit - Credit Risk Model Stability
-O objetivo desta competição é prever quais clientes são mais propensos a não pagarem seus empréstimos
+**O objetivo desta competição é prever quais clientes são mais propensos a não pagarem seus empréstimos**
 
 ### Relatório Executivo (Insights e eficácia)
 Neste gráfico podemos avaliar a importância de cada fator para a eficiência do modelo, de modo que fatores mais importantes podem ser melhor registrados, ou terem uma validação melhor de modo que futuros modelos tenham uma melhor eficácia
@@ -11,7 +11,7 @@ Fiz um outro modelo utilizando apenas dados de treino e vemos como característi
 ![image](https://github.com/user-attachments/assets/6e326859-d812-4df7-a7f3-3f00c6206a0b)
 
 
-#### 📊 Métricas no conjunto de treino:
+#### Métricas no conjunto de treino:
 
 AUC: 0.7589
 
