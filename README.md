@@ -7,10 +7,15 @@ Neste gráfico podemos avaliar a importância de cada fator para a eficiência d
 
 
 📊 Métricas no conjunto de treino:
+
 AUC: 0.7589
+
 Accuracy: 0.9671
+
 F1-score: 0.0115
+
 Precision: 1.0000
+
 Recall: 0.0058
 
 
