@@ -13,7 +13,7 @@ Fiz um outro modelo utilizando apenas dados de treino e vemos como característi
 
 📊 Métricas no conjunto de treino:
 
-AUC: 0.7589
+AUC: 0.7589   ::    Accuracy: 0.9671
 
 Accuracy: 0.9671
 
