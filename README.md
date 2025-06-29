@@ -11,11 +11,11 @@ RELATÓRIO EMPRESARIAL (Insights e eficácia)]
 
 # RELATÓRIO TÉCNICO (Deciões e futuras melhorias do modelo)
 
-Os dados utilizados são provenientes de todas as bases com exceção da base debitcard, pois não encontrei informações relevantes para o modelo
+- Os dados utilizados são provenientes de todas as bases com exceção da base debitcard, pois não encontrei informações relevantes para o modelo
 
-Utilizei apenas os case_ids que vão até o número 100 mil, de modo que fosse possível manipular as bases sem grandes problemas de uso de RAM
+- Utilizei apenas os case_ids que vão até o número 100 mil, de modo que fosse possível manipular as bases sem grandes problemas de uso de RAM
 
-Aplicar uma função que converta cada categoria para o menor tipo possível é uma boa prática, no entanto, esta função seria rodada após o carregamento da base, não fazendo tanta diferença para meu modelo
+- Aplicar uma função que converta cada categoria para o menor tipo possível é uma boa prática, no entanto, esta função seria rodada após o carregamento da base, não fazendo tanta diferença para meu modelo
 
 Casos de um mesmo case_ids com diversas linhas referentes as mesmas características foram removidos, baseado na regra keep = 'first', isto é mantém-se o primeiro.
 
