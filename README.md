@@ -11,7 +11,7 @@ Fiz um outro modelo utilizando apenas dados de treino e vemos como característi
 ![image](https://github.com/user-attachments/assets/6e326859-d812-4df7-a7f3-3f00c6206a0b)
 
 
-📊 #### Métricas no conjunto de treino:
+#### 📊 Métricas no conjunto de treino:
 
 AUC: 0.7589
 
@@ -25,7 +25,7 @@ Recall: 0.0058
 
 #### Conclusões a partir das métricas:
 
-1. Desequilíbrio de classes é forte
+**1. Desequilíbrio de classes é forte**
 - O F1-score muito baixo (0.0115), mesmo com precisão perfeita (1.0000), indica que o modelo quase nunca acerta casos positivos (classe minoritária).
 
 - O Recall muito baixo (0.0058) significa que praticamente todos os casos positivos são ignorados.
@@ -34,7 +34,7 @@ Recall: 0.0058
 
 - Reecomenda-se futuramente usar algum método para utilizar mais targets 1 e menos targets 0 de modo a balancear melhor os dados.
 
-2. O AUC (0.7589) é razoável
+**2. O AUC (0.7589) é razoável**
 - Isso sugere que o modelo consegue distinguir as classes até certo ponto, ou seja, o score de probabilidade tem alguma capacidade discriminativa.
 
 - AUC mede separação, não decisão final. Isso mostra que talvez, ajustando o limiar de decisão, o modelo possa melhorar bastante, por padrão é 0.5.
