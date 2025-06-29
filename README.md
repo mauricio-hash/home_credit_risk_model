@@ -6,10 +6,9 @@ Neste gráfico podemos avaliar a importância de cada fator para a eficiência d
 
 ![image](https://github.com/user-attachments/assets/e3ed2f09-76e5-4dbd-96e8-25136d6e7b77)
 
-Fiz um outro modelo utilizando apenas dados de treino e vemos como características que não estavam nos dados de teste podem fazer grande diferença no modelo
+Fiz um outro modelo utilizando apenas dados de treino e vemos como características que não estavam nos dados de teste podem fazer grande diferença no modelo, neste exemplo o fator district se mostrou ser um grande influenciador do modelo.
 
 ![image](https://github.com/user-attachments/assets/6e326859-d812-4df7-a7f3-3f00c6206a0b)
-
 
 
 📊 Métricas no conjunto de treino:
