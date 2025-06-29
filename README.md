@@ -5,6 +5,11 @@ O objetivo desta competição é prever quais clientes são mais propensos a nã
 Neste gráfico podemos avaliar a importância de cada fator para a eficiência do modelo, de modo que fatores mais importantes podem ser melhor registrados, ou terem uma validação melhor de modo que futuros modelos tenham uma melhor eficácia
 ![image](https://github.com/user-attachments/assets/e3ed2f09-76e5-4dbd-96e8-25136d6e7b77)
 
+Fiz um outro modelo utilizando apenas dados de treino e vemos como características que não estavam nos dados de teste podem fazer grande diferença no modelo
+
+![image](https://github.com/user-attachments/assets/6e326859-d812-4df7-a7f3-3f00c6206a0b)
+
+
 
 📊 Métricas no conjunto de treino:
 
@@ -17,6 +22,21 @@ F1-score: 0.0115
 Precision: 1.0000
 
 Recall: 0.0058
+
+Conclusões a partir das métricas:
+
+1. Desequilíbrio de classes é forte
+O F1-score muito baixo (0.0115), mesmo com precisão perfeita (1.0000), indica que o modelo quase nunca acerta casos positivos (classe minoritária).
+
+O Recall muito baixo (0.0058) significa que praticamente todos os casos positivos são ignorados.
+
+A acurácia alta (0.9671) pode ser enganosa nesse cenário: provavelmente a classe negativa (maioritária) domina e o modelo acerta a maioria só por sempre prever "negativo".
+
+2. O AUC (0.7589) é razoável
+Isso sugere que o modelo consegue distinguir as classes até certo ponto, ou seja, o score de probabilidade tem alguma capacidade discriminativa.
+
+AUC mede separação, não decisão final. Isso mostra que talvez, ajustando o limiar de decisão, o modelo possa melhorar bastante, por padrão é 0.5.
+
 
 
 
