@@ -3,6 +3,7 @@ O objetivo desta competição é prever quais clientes são mais propensos a nã
 
 ### Relatório Executivo (Insights e eficácia)
 Neste gráfico podemos avaliar a importância de cada fator para a eficiência do modelo, de modo que fatores mais importantes podem ser melhor registrados, ou terem uma validação melhor de modo que futuros modelos tenham uma melhor eficácia
+
 ![image](https://github.com/user-attachments/assets/e3ed2f09-76e5-4dbd-96e8-25136d6e7b77)
 
 Fiz um outro modelo utilizando apenas dados de treino e vemos como características que não estavam nos dados de teste podem fazer grande diferença no modelo
