@@ -23,7 +23,7 @@ Precision: 1.0000
 
 Recall: 0.0058
 
-Conclusões a partir das métricas:
+#### Conclusões a partir das métricas:
 
 1. Desequilíbrio de classes é forte
 O F1-score muito baixo (0.0115), mesmo com precisão perfeita (1.0000), indica que o modelo quase nunca acerta casos positivos (classe minoritária).
