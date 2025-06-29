@@ -9,7 +9,7 @@ RELATÓRIO EMPRESARIAL (Insights e eficácia)]
 
 
 
-RELATÓRIO TÉCNICO (Deciões e futuras melhorias do modelo)
+# RELATÓRIO TÉCNICO (Deciões e futuras melhorias do modelo)
 
 Os dados utilizados são provenientes de todas as bases com exceção da base debitcard, pois não encontrei informações relevantes para o modelo
 
