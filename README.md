@@ -60,6 +60,8 @@ Recall: 0.0058
 
 - Verifiquei que a base de treino e teste tinhas colunas desiguais, isto é, que existia em uma e não na outra, então removi-as de modo a ter dois datasets com as mesma colunas de características para utilizar o modelo.
 
+- Realizar o balanceamento de dados de modo a ter mais dados com target 1 e menos com target 0
+
 - Ao fim utilizei random_search para otimizar meus paâmetros para o modelo Light GBM, em virtude de sua velocidade, utilizar outros modelos pode ser interessante.
 
 - O modelo usado foi o Light GBM, em virtude dos seus grandes resultados com problemas de classificação, utilizar XGBoost ou CatBoost serias opções também com bom prospecto neqste tipo de problema.
