@@ -1,7 +1,7 @@
-# home_credit_risk_model
+# Home Credit - Credit Risk Model Stability
 O objetivo desta competição é prever quais clientes são mais propensos a não pagarem seus empréstimos
 
-# RELATÓRIO EMPRESARIAL (Insights e eficácia)
+## RELATÓRIO EMPRESARIAL (Insights e eficácia)
 Importância de cada fator para a eficiência do modelo: 
 ![image](https://github.com/user-attachments/assets/e3ed2f09-76e5-4dbd-96e8-25136d6e7b77)
 
@@ -13,7 +13,7 @@ Importância de cada fator para a eficiência do modelo:
 
 
 
-# RELATÓRIO TÉCNICO (Deciões e futuras melhorias do modelo)
+## RELATÓRIO TÉCNICO (Deciões e futuras melhorias do modelo)
 
 - Os dados utilizados são provenientes de todas as bases com exceção da base debitcard, pois não encontrei informações relevantes para o modelo
 
