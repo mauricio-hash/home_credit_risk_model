@@ -39,6 +39,9 @@ Recall: 0.0058
 
 - AUC mede separação, não decisão final. Isso mostra que talvez, ajustando o limiar de decisão, o modelo possa melhorar bastante, por padrão é 0.5.
 
+![image](https://github.com/user-attachments/assets/e0662042-1f06-4fd5-a450-f67711534f1d)
+
+
 
 ### Relatório Técnico (Deciões e futuras melhorias do modelo)
 
@@ -64,5 +67,4 @@ Recall: 0.0058
 
 
 
-![image](https://github.com/user-attachments/assets/e0662042-1f06-4fd5-a450-f67711534f1d)
 
