@@ -13,7 +13,7 @@ Fiz um outro modelo utilizando apenas dados de treino e vemos como característi
 
 📊 Métricas no conjunto de treino:
 
-AUC: 0.7589   ::    Accuracy: 0.9671
+AUC: 0.7589
 
 Accuracy: 0.9671
 
@@ -37,11 +37,9 @@ Isso sugere que o modelo consegue distinguir as classes até certo ponto, ou sej
 
 AUC mede separação, não decisão final. Isso mostra que talvez, ajustando o limiar de decisão, o modelo possa melhorar bastante, por padrão é 0.5.
 
+Recomendação:
 
-
-
-
-
+Usar algum método para utilizar mais targets 1 e menos targets 0 de modo a balancear melhor os dados.
 
 
 
